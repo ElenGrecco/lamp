@@ -3,6 +3,9 @@
  * @author Elen Grecco
  */
 
+//variaveisde apois lógico
+let chave
+
 function quebrar() {
     
     //reproduzindo um arquivo de áudio no JS
@@ -15,5 +18,11 @@ function quebrar() {
 }
 
 function onoff() {
-   document.getElementById('interruptor').src="img/swon.png"
-}
+    if(chave === false){
+        document.getElementById('interruptor').src="img/swon.png"
+        chave = true // O JS agora sabe que a chave está ligada
+    } else {
+
+    }
+    }
+   
