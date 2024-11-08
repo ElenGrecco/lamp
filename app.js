@@ -13,3 +13,7 @@ function quebrar() {
     som.play()
     document.getElementById('lamp').src="img/broken.jpg"
 }
+
+function onoff() {
+   document.getElementById('interruptor').src="img/swon.png"
+}
